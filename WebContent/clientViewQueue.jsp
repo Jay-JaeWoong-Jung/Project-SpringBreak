@@ -12,11 +12,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<title>View your number</title>
+<title>View your order</title>
 </head>
 <body>
 
-<span> There are ${mvo.number} students ahead of you</span>	
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">#${mvo.number}</h1>
+    <p class="lead">There are ${mvo.number} students ahead of you.</p>
+  </div>
+</div>
+<span> </span>	
 
 
 </body>
