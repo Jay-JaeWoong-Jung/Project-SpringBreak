@@ -24,12 +24,12 @@
 
  <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading text-center">Request Help to a TA</h2>
+      <form class="form-request-help">
+        <h2 class="form-request-help-heading text-center">Request Help to a TA</h2>
         <label for="fullname" class="sr-only">type your full name </label>
         <input type="text" id="fullname" class="form-control" placeholder="Your full name" required autofocus>
         <label for="comment" class="sr-only">Describe your question briefly</label>
-        <input type="text" id="comment" class="form-control" placeholder="ask question here" required><br>
+        <input type="text" id="comment" class="form-control" placeholder="ask question here" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">submit</button>
       </form>
 
